@@ -5,5 +5,6 @@ public class Main {
         System.out.println(p.isUnicorn);
         p.isUnicorn = true;
         System.out.println(p.isUnicorn);
+        p.describePony();
     }
 }
