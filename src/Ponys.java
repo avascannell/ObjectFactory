@@ -9,9 +9,24 @@ public class Ponys {
     }
 
 
- public boolean isUnicorn = false;
- public boolean isPegasus = false;
- public double size = 20.56;
- public String name = "rainbowdash";
- public String color = "blue";
-}
+ public boolean isUnicorn;
+
+ public boolean isPegasus;
+ public double size;
+ public String name;
+ public String color;
+
+
+ public Ponys(boolean pIsUnicorn, boolean pIsPegasus, double pSize, String pName){
+     isUnicorn = pIsUnicorn;
+     isPegasus = pIsPegasus;
+     size = pSize;
+     name = pName;
+     color = "blue";
+     //f(color.equals("pink"));
+     System.out.println();
+ }
+ }
+
+
+

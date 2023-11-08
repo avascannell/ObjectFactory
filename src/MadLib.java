@@ -1,4 +1,3 @@
-import com.sun.org.apache.bcel.internal.generic.NEW;
 
 public class MadLib {
     public static void main(String[] args) {System.out.println("Hello World");
